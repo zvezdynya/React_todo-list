@@ -1,0 +1,15 @@
+.content {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.list {
+    width: 100%;
+    justify-content: right;
+}
