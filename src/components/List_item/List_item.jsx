@@ -5,7 +5,7 @@ const List_item = (props) => {
 
     const [checked, setChecked] = useState(false);
 
-    const handelChecked = () => {
+    const handleChecked = () => {
         setChecked(!checked);
     }
 
@@ -14,7 +14,7 @@ const List_item = (props) => {
             <input
                 type="checkbox"
                 className={styles.checkbox}
-                onClick={handelChecked}>
+                onClick={handleChecked}>
             </input>
             <label
                 style={{ color: props.color }}
